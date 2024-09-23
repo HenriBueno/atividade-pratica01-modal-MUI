@@ -1,5 +1,6 @@
 import AppMenu from "../components/AppMenu";
 import CardContent from "../components/CardContent";
+import FolderList from "../components/List/List";
 import TitlePage from "../components/TitlePage";
 
 function Contact() {
@@ -7,7 +8,7 @@ function Contact() {
     <>
       <TitlePage title="Entre em Contato" />
       <CardContent>
-        <p>Fone: (51) 98445-2377</p>
+        <FolderList/>
       </CardContent>
       <AppMenu />
     </>
